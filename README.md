@@ -5,9 +5,9 @@ language bindings over it.
 
 Whelk is the platform for private AI. `libwhelk` exposes a small, stable C ABI
 over Whelk's portable core, for callers that are not Swift or Kotlin. The
-library ships as a signed binary and the committed C header beside it. The core
-it wraps stays closed: a reader of the bindings cannot build Whelk, only call a
-signed library.
+library ships as a signed binary and the committed C header beside it. Whelk is
+open core, and the core this library wraps is licensed Apache-2.0. Its source is
+not in this repository.
 
 ## What ships here
 
